@@ -75,10 +75,11 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
-  background: url(l.svg);
+  
 }
 ul {
   list-style-type: none;
+  margin-left: 20px;
 }
 a {
   text-decoration: none;
@@ -125,6 +126,7 @@ p {
   }
   h3 {
     font-size: 1.75rem;
+    padding: 20px;
   }
   h4 {
     font-size: 1rem;
@@ -174,6 +176,7 @@ p {
   padding-top: 2rem;
   padding-bottom: 2rem;
   background: url("bb.gif");
+
 }
 #services{
   background: url("cc.gif");
@@ -349,6 +352,11 @@ header {
   }
 }
 /* sections and title */
+.sect{
+padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: url("bb.gif");
+}
 .title h2 {
   text-align: center;
   text-transform: uppercase;
@@ -362,7 +370,7 @@ header {
 
 }
 #about,
-#services,
+
 #tours {
   height: 80vh;
 }
@@ -370,6 +378,7 @@ header {
   background: url("ff.gif");
    box-shadow: var(--light-shadow);
    background-repeat: round;
+   height: 320vh;
 }
 footer {
   background: var(--clr-grey-1);
@@ -414,4 +423,95 @@ footer p {
   100% {
     transform: scale(1);
   }
+}
+
+fieldset.ob{
+  padding: 80px;
+  width: 30px;
+  background: url("fff.gif");
+  background-repeat: no-repeat;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  background-repeat: round;
+  margin-left: 50px;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-between;
+
+}
+fieldset.tl{
+  padding: 80px;
+  width: 30px;
+  background: url("fff.gif");
+  background-repeat: no-repeat;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  background-repeat: round;
+  margin-left: 50px;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-between;
+
+}
+p.lead{
+  padding: 20x;
+  font-size: 30px;
+  font-family: monospace;
+  color: #0DF349;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: wrap;
+}
+fieldset.tl:hover{
+  border-radius: 30px;
+  box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+  transition: 0.5s;
+  transform: scale(1.0);
+
+}
+fieldset.ob:hover{
+  border-radius: 30px;
+  box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+  transition: 0.5s;
+  transform: scale(1.0);
+
+}
+h3{
+  color: #60DB23;
+  padding: 30px 40px 40px 30px;
+  border-style: dotted;
+  border-color: #23E61E;box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+  border-bottom-right-radius: 30px;
+  border-bottom-style: outset;
+  border-top-left-radius: 10px;
+  border-top-left-radius: 8px;
+  background: #090101;
+
+}
+h3:hover{
+  
+  transition: 0.5s;
+  transform: scale(1.0);
+
+}
+section.intro{
+  
+}
+div.intro{
+  display: flex;
+  flex-direction: wrap;
+  background: url("ff.gif");
+  width: 100%;
+
+}
+ul{
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-between;
+}
+
+p.l{
+  padding-left: 20px;
 }
