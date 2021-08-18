@@ -62,10 +62,35 @@
       </div>
     </section>
     <!-- services -->
-    <section id="services" class="section">
+    <section id="services" class="sect">
       <div class="title">
-        <h2>MEET OUR <span>CLUB MEMBERS!</span></h2>
+        <h2>MEET OUR <span>CLUB MEMBERS!</span></h2>     
+        
       </div>
+       <div class="intro">
+        <ul >
+        <li><fieldset class="ob"><legend><h3>Vaishnavi Ayyappan</h3></legend><br><p class="lead">DSC LEAD<br>FINAL YEAR CSE!<br></p></fieldset></li>
+        <li><fieldset class="tl"><legend><h3>Subramaniya Nivash Palanichamy</h3></legend><br><p class="lead">MARKETING LEAD<br>FINAL YEAR CSE!<br></p></fieldset></li>                    
+        <li><fieldset class="tl"><legend><h3>Vigneshwar A S</h3></legend><br><p class="lead">EVENT MANAGMENT<br>FINAL YEAR CSE!<br></p></fieldset></li></ul>
+      </div>
+        <div class="intro"><ul><li><fieldset class="tl"><legend><h3>Avinash R</h3></legend><br><p class="lead">DSC LEAD<br>FINAL YEAR CSE!<br></p></fieldset></li>                    
+        <li> <fieldset class="tl"><legend><h3>Yogesh Waran S</h3></legend><br><p class="lead">DSC LEAD<br>FINAL YEAR CSE!<br></p></fieldset></li>                   
+        <li><fieldset class="tl"><legend><h3>KaviyaSri A N </h3></legend><br><p class="lead">DSC LEAD<br>FINAL YEAR CSE!<br></p></fieldset></li><br> </ul></div>
+        <div class="intro">
+         <ul>                  
+         <li><fieldset class="tl"><legend><h3>Harrish Ragavendar S</h3></legend><br><p class="lead">DSC LEAD<br>FINAL YEAR CSE!<br></p></fieldset></li>                   
+         <li><fieldset class="tl"><legend><h3>Syed_Aasim A</h3></legend><br><p class="lead">DSC LEAD<br>FINAL YEAR CSE!<br></p></fieldset></li></ul></div>
+        <div class="intro">
+         <ul>
+         <li><fieldset class="tl"><legend><h3>PENDING</h3></legend><br><p class="lead">DSC LEAD<br>FINAL YEAR CSE!<br></p></fieldset></li> 
+         <li><fieldset class="tl"><legend><h3>PENDING</h3></legend><br><p class="lead">DSC LEAD<br>FINAL YEAR CSE!<br></p></fieldset></li> 
+         <li><fieldset class="tl"><legend><h3>PENDING</h3></legend><br><p class="lead">DSC LEAD<br>FINAL YEAR CSE!<br></p></fieldset></li> 
+
+       </ul> </div>            
+             
+         
+       </ul>
+        </div>
     </section>
     <!-- contact -->
     
@@ -81,5 +106,23 @@
     </a>
     <!-- javascript -->
     <script src="app.js"></script>
+    <script type="text/javascript">
+    //First
+    $(document).ready(function() {
+    var docWidth = $('body').width(),
+    slidesWidth = $('section.section').width(),
+     rangeX = slidesWidth - docWidth,
+    $images = $('section.section');
+    $(document).on('mousemove', function(e) {
+    var mouseX = e.pageX,
+    offset = mouseX / docWidth * slidesWidth - mouseX / 1;
+
+  $images.css({
+    '-webkit-transform': 'translate3d(' + -offset + 'px,0,0)',
+    'transform': 'translate3d(' + -offset + 'px,0,0)'
+  });
+});
+});
+</script>
   </body>
 </html>
