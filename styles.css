@@ -378,7 +378,7 @@ padding-top: 2rem;
   background: url("ff.gif");
    box-shadow: var(--light-shadow);
    background-repeat: round;
-   height: 320vh;
+   height: 310vh;
 }
 footer {
   background: var(--clr-grey-1);
@@ -456,7 +456,7 @@ fieldset.tl{
 
 }
 p.lead{
-  padding: 20x;
+  padding: 22x;
   font-size: 30px;
   font-family: monospace;
   color: #0DF349;
@@ -514,4 +514,11 @@ ul{
 
 p.l{
   padding-left: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .intro {
+    width: 95vw;
+  }
+
 }
