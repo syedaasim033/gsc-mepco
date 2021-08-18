@@ -71,7 +71,7 @@ html {
 }
 body {
   font-family: var(--ff-secondary);
-  background: linear-gradient(135deg, #E21313 1%, #1830E1 100%);
+  background: black;
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
