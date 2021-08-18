@@ -378,7 +378,7 @@ padding-top: 2rem;
   background: url("ff.gif");
    box-shadow: var(--light-shadow);
    background-repeat: round;
-   height: 330vh;
+   height: 325vh;
 }
 footer {
   background: var(--clr-grey-1);
